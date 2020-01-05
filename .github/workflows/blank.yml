@@ -16,3 +16,4 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project,
         sudo -E apt-get update
+        sudo -E apt-get upgrade
