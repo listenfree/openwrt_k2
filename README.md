@@ -4,3 +4,5 @@
 定制k2
 
 修改compile.sh按自己的需要
+
+再由github Action组装，感谢github!!!
