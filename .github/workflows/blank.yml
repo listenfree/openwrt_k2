@@ -15,7 +15,17 @@ jobs:
       run: |
         sudo -E apt-get update
         sudo -E apt-get install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc wget unzip python
-    - name: Update feeds
+    - name: run compile.sh
       run: |
         sudo chmod +x ./compile.sh
         ./compile.sh
+    - name: Assemble artifact
+      run: |
+        rm -rf ./artifact/
+        mkdir -p ./artifact/
+        find ./bin/targets/ -name "*sysupgrade*bin*" | xargs -i mv -f {} ./artifact/
+    - name: Upload artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: OpenWrt firmware
+        path: ./artifact/
