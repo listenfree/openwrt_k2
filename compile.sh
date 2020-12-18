@@ -1,4 +1,4 @@
- version="19.07.4"
+ version="19.07.5"
  wget https://downloads.openwrt.org/releases/${version}/targets/ramips/mt7620/openwrt-imagebuilder-${version}-ramips-mt7620.Linux-x86_64.tar.xz
  xz -d openwrt-imagebuilder-${version}-ramips-mt7620.Linux-x86_64.tar.xz
  tar -xvf openwrt-imagebuilder-${version}-ramips-mt7620.Linux-x86_64.tar
