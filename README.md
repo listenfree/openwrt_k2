@@ -1,4 +1,6 @@
 # openwrt_k2
+此为19.7.X分支
+
 使用openwrt官方源，主要参考https://openwrt.org/docs/guide-user/additional-software/imagebuilder
 
 定制k2
