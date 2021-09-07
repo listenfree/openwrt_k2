@@ -9,4 +9,4 @@
 
 再由github Action组装，感谢github!!!
 
-目前等待OpenWrt 21.xx正式推出后再适配。
+目前OpenWrt 21.xx.xx正式推出，已适配。
