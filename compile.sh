@@ -1,5 +1,5 @@
  #good for you
-version="23.05.4"
+version="23.05.5"
 current_path = $(pwd)
 wget https://downloads.openwrt.org/releases/${version}/targets/ramips/mt7620/openwrt-imagebuilder-${version}-ramips-mt7620.Linux-x86_64.tar.xz
 xz -d openwrt-imagebuilder-${version}-ramips-mt7620.Linux-x86_64.tar.xz
